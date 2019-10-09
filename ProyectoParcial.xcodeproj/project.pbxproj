@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2C6AC4234E96E400A39383 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C6AC3234E96E400A39383 /* Modelo.swift */; };
+		3D2C6AC6234E97C800A39383 /* Cell_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C6AC5234E97C800A39383 /* Cell_ViewController.swift */; };
 		3D54BFEE234D240B003AF625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D54BFED234D240B003AF625 /* AppDelegate.swift */; };
 		3D54BFF0234D240B003AF625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D54BFEF234D240B003AF625 /* ViewController.swift */; };
 		3D54BFF3234D240B003AF625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D54BFF1234D240B003AF625 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D2C6AC3234E96E400A39383 /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
+		3D2C6AC5234E97C800A39383 /* Cell_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell_ViewController.swift; sourceTree = "<group>"; };
 		3D54BFEA234D240B003AF625 /* ProyectoParcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoParcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D54BFED234D240B003AF625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D54BFEF234D240B003AF625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				3D54BFF9234D240F003AF625 /* Info.plist */,
 				3D54C01B234D3770003AF625 /* AgregarAutoController.swift */,
 				3D54C01D234D37A1003AF625 /* AgregarAuto.swift */,
+				3D2C6AC3234E96E400A39383 /* Modelo.swift */,
+				3D2C6AC5234E97C800A39383 /* Cell_ViewController.swift */,
 			);
 			path = ProyectoParcial;
 			sourceTree = "<group>";
@@ -264,8 +270,10 @@
 			files = (
 				3D54BFF0234D240B003AF625 /* ViewController.swift in Sources */,
 				3D54BFEE234D240B003AF625 /* AppDelegate.swift in Sources */,
+				3D2C6AC6234E97C800A39383 /* Cell_ViewController.swift in Sources */,
 				3D54C01E234D37A1003AF625 /* AgregarAuto.swift in Sources */,
 				3D54C01C234D3770003AF625 /* AgregarAutoController.swift in Sources */,
+				3D2C6AC4234E96E400A39383 /* Modelo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
