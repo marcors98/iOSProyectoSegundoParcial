@@ -11,14 +11,23 @@ import UIKit
 
 class AgregarCargaController : UIViewController {
     
-    var carro : Carro?
-    var callbackActualizarTabla : (() -> Void)?
-    
-    
+    var placa : String?
+    var callbackActualizarTabla : ((Carga) -> Void)?
+    @IBOutlet weak var txtCantidad: UITextField!
+    @IBOutlet weak var txtLitros: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = "Agregar Carga"
     }
+    
+    @IBAction func doTapGuardarNuevaCarga(_ sender: Any) {
+        let carga = Carga(cantidad: txtCantidad.text, litros: txtLitros.text)
+        callbackActualizarTabla!(carga)
+        
+        
+        self.navigationController?.popViewController(animated: true)
+    }
+    
 }

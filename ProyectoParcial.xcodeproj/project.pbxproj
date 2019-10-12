@@ -14,6 +14,7 @@
 		3D54BFF8234D240F003AF625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D54BFF6234D240F003AF625 /* LaunchScreen.storyboard */; };
 		3D54C003234D240F003AF625 /* ProyectoParcialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D54C002234D240F003AF625 /* ProyectoParcialTests.swift */; };
 		3D54C00E234D240F003AF625 /* ProyectoParcialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D54C00D234D240F003AF625 /* ProyectoParcialUITests.swift */; };
+		3D7CB66823525AE7009D1A22 /* Carga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CB66723525AE7009D1A22 /* Carga.swift */; };
 		3D82115623511EDA00A7F190 /* EditarCarroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82115523511EDA00A7F190 /* EditarCarroController.swift */; };
 		3D821158235120B500A7F190 /* CeldaCarroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D821157235120B500A7F190 /* CeldaCarroController.swift */; };
 		3D82115A2351289200A7F190 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8211592351289200A7F190 /* Carro.swift */; };
@@ -53,6 +54,7 @@
 		3D54C009234D240F003AF625 /* ProyectoParcialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoParcialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D54C00D234D240F003AF625 /* ProyectoParcialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcialUITests.swift; sourceTree = "<group>"; };
 		3D54C00F234D240F003AF625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7CB66723525AE7009D1A22 /* Carga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carga.swift; sourceTree = "<group>"; };
 		3D82115523511EDA00A7F190 /* EditarCarroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarCarroController.swift; sourceTree = "<group>"; };
 		3D821157235120B500A7F190 /* CeldaCarroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCarroController.swift; sourceTree = "<group>"; };
 		3D8211592351289200A7F190 /* Carro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				3D82115B23512E3600A7F190 /* AgregarCarroController.swift */,
 				3D82115D235150CA00A7F190 /* AgregarCargaController.swift */,
 				3D82115F235157BB00A7F190 /* CeldaCargasController.swift */,
+				3D7CB66723525AE7009D1A22 /* Carga.swift */,
 			);
 			path = ProyectoParcial;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				3D54BFF0234D240B003AF625 /* ViewController.swift in Sources */,
 				3D82115E235150CA00A7F190 /* AgregarCargaController.swift in Sources */,
 				3D821158235120B500A7F190 /* CeldaCarroController.swift in Sources */,
+				3D7CB66823525AE7009D1A22 /* Carga.swift in Sources */,
 				3D82115623511EDA00A7F190 /* EditarCarroController.swift in Sources */,
 				3D821160235157BB00A7F190 /* CeldaCargasController.swift in Sources */,
 				3D54BFEE234D240B003AF625 /* AppDelegate.swift in Sources */,

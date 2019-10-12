@@ -16,11 +16,10 @@ class Carro {
     var año : String?
     var conductor : String?
     var foto : String?
-    var litros : [String?] = []
-    var cantidad : [String?] = []
+    var Cargas : [Carga?] = []
     
     
-    init(placa : String?, modelo: String?, marca : String?, año : String?, conductor : String?, foto : String?, cantidad : [String?], litros : [String?])
+    init(placa : String?, modelo: String?, marca : String?, año : String?, conductor : String?, foto : String?, Cargas : [Carga?] = [])
     {
         self.placa = placa
         self.modelo = modelo
@@ -28,7 +27,6 @@ class Carro {
         self.conductor = conductor
         self.año = año
         self.foto = foto
-        self.litros = litros
-        self.cantidad = cantidad
+        self.Cargas = Cargas
     }
 }

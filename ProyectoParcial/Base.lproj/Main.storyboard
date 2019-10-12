@@ -371,7 +371,7 @@
                                 <rect key="frame" x="0.0" y="547" width="414" height="349"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" rowHeight="70" id="aCg-lZ-iKk" userLabel="celdaCargas" customClass="CeldaCargasController" customModule="ProyectoParcial" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" reuseIdentifier="celdaCargas" rowHeight="70" id="aCg-lZ-iKk" userLabel="celdaCargas" customClass="CeldaCargasController" customModule="ProyectoParcial" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aCg-lZ-iKk" id="1WX-v0-Vsg">
@@ -390,31 +390,24 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ys5-SL-Mcd">
-                                                    <rect key="frame" x="313.5" y="16" width="80.5" height="32"/>
-                                                    <color key="backgroundColor" red="0.3516311312" green="0.78435849469999996" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                                    <state key="normal" title="Eliminar">
-                                                        <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                                                    </state>
-                                                </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="ys5-SL-Mcd" firstAttribute="leading" secondItem="iYU-Qb-rJs" secondAttribute="trailing" constant="238" id="1OV-ev-vpl"/>
                                                 <constraint firstItem="iYU-Qb-rJs" firstAttribute="leading" secondItem="1WX-v0-Vsg" secondAttribute="leadingMargin" id="4jA-E0-4Wx"/>
-                                                <constraint firstItem="ys5-SL-Mcd" firstAttribute="trailing" secondItem="1WX-v0-Vsg" secondAttribute="trailingMargin" id="Dax-Yj-szh"/>
                                                 <constraint firstItem="WWw-KU-udx" firstAttribute="leading" secondItem="1WX-v0-Vsg" secondAttribute="leading" constant="20" id="O9Y-Ib-Ffg"/>
-                                                <constraint firstItem="ys5-SL-Mcd" firstAttribute="top" secondItem="1WX-v0-Vsg" secondAttribute="topMargin" constant="5" id="jIX-Xa-Ou2"/>
                                                 <constraint firstItem="WWw-KU-udx" firstAttribute="top" secondItem="iYU-Qb-rJs" secondAttribute="bottom" constant="5" id="jvk-aV-ZmL"/>
                                                 <constraint firstItem="iYU-Qb-rJs" firstAttribute="top" secondItem="1WX-v0-Vsg" secondAttribute="topMargin" id="x5e-mw-Q2r"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="lblCantdad" destination="WWw-KU-udx" id="Lbm-dt-n7V"/>
+                                            <outlet property="lblCantidad" destination="WWw-KU-udx" id="9s4-d6-2uo"/>
                                             <outlet property="lblLitros" destination="iYU-Qb-rJs" id="spf-fx-Tr5"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ogy-XS-Htm" id="fAS-QX-8tu"/>
+                                    <outlet property="delegate" destination="ogy-XS-Htm" id="GeQ-of-TZH"/>
+                                </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAR-M1-qZk">
                                 <rect key="frame" x="283" y="504" width="111" height="33"/>
@@ -423,7 +416,7 @@
                                     <color key="titleColor" red="0.3516311312" green="0.78435849469999996" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="k1t-aM-Qqm" kind="show" id="s4n-kJ-Q8Q"/>
+                                    <segue destination="k1t-aM-Qqm" kind="show" identifier="goToNuevaCarga" id="s4n-kJ-Q8Q"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xsB-NO-Yki">
@@ -486,7 +479,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="btnGuardar" destination="GfU-pT-Yg9" id="6oX-M4-zVw"/>
-                        <outlet property="tv_Cargas" destination="u2t-2j-Yyt" id="0Za-bE-7FL"/>
+                        <outlet property="tv_Cargas" destination="u2t-2j-Yyt" id="esU-sM-XqA"/>
                         <outlet property="txtAño" destination="xsB-NO-Yki" id="m9U-fO-3Wh"/>
                         <outlet property="txtConductor" destination="dOc-QC-4Mu" id="Lwd-UR-amB"/>
                         <outlet property="txtMarca" destination="BUN-q1-4kr" id="ZqJ-0h-CAC"/>
@@ -538,6 +531,9 @@
                                 <state key="normal" title="Guardar">
                                     <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="doTapGuardarNuevaCarga:" destination="k1t-aM-Qqm" eventType="touchUpInside" id="d4q-2Q-Cj4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -555,10 +551,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="A5v-IK-OXN"/>
                     </view>
+                    <connections>
+                        <outlet property="txtCantidad" destination="f1w-cl-Oec" id="aVi-us-HHt"/>
+                        <outlet property="txtLitros" destination="lUK-8c-P6f" id="PfB-e2-aS5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2LA-SR-hMs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1747.826086956522" y="550.44642857142856"/>
+            <point key="canvasLocation" x="1748" y="551"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Vve-6f-zP6">
