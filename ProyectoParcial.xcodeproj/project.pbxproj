@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D2C6AC4234E96E400A39383 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C6AC3234E96E400A39383 /* Modelo.swift */; };
-		3D2C6AC6234E97C800A39383 /* Cell_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C6AC5234E97C800A39383 /* Cell_ViewController.swift */; };
 		3D54BFEE234D240B003AF625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D54BFED234D240B003AF625 /* AppDelegate.swift */; };
 		3D54BFF0234D240B003AF625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D54BFEF234D240B003AF625 /* ViewController.swift */; };
 		3D54BFF3234D240B003AF625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D54BFF1234D240B003AF625 /* Main.storyboard */; };
@@ -16,8 +14,12 @@
 		3D54BFF8234D240F003AF625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D54BFF6234D240F003AF625 /* LaunchScreen.storyboard */; };
 		3D54C003234D240F003AF625 /* ProyectoParcialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D54C002234D240F003AF625 /* ProyectoParcialTests.swift */; };
 		3D54C00E234D240F003AF625 /* ProyectoParcialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D54C00D234D240F003AF625 /* ProyectoParcialUITests.swift */; };
-		3D54C01C234D3770003AF625 /* AgregarAutoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D54C01B234D3770003AF625 /* AgregarAutoController.swift */; };
-		3D54C01E234D37A1003AF625 /* AgregarAuto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D54C01D234D37A1003AF625 /* AgregarAuto.swift */; };
+		3D82115623511EDA00A7F190 /* EditarCarroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82115523511EDA00A7F190 /* EditarCarroController.swift */; };
+		3D821158235120B500A7F190 /* CeldaCarroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D821157235120B500A7F190 /* CeldaCarroController.swift */; };
+		3D82115A2351289200A7F190 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8211592351289200A7F190 /* Carro.swift */; };
+		3D82115C23512E3600A7F190 /* AgregarCarroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82115B23512E3600A7F190 /* AgregarCarroController.swift */; };
+		3D82115E235150CA00A7F190 /* AgregarCargaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82115D235150CA00A7F190 /* AgregarCargaController.swift */; };
+		3D821160235157BB00A7F190 /* CeldaCargasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82115F235157BB00A7F190 /* CeldaCargasController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D2C6AC3234E96E400A39383 /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
-		3D2C6AC5234E97C800A39383 /* Cell_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell_ViewController.swift; sourceTree = "<group>"; };
 		3D54BFEA234D240B003AF625 /* ProyectoParcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoParcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D54BFED234D240B003AF625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D54BFEF234D240B003AF625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,8 +53,12 @@
 		3D54C009234D240F003AF625 /* ProyectoParcialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoParcialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D54C00D234D240F003AF625 /* ProyectoParcialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcialUITests.swift; sourceTree = "<group>"; };
 		3D54C00F234D240F003AF625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D54C01B234D3770003AF625 /* AgregarAutoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarAutoController.swift; sourceTree = "<group>"; };
-		3D54C01D234D37A1003AF625 /* AgregarAuto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarAuto.swift; sourceTree = "<group>"; };
+		3D82115523511EDA00A7F190 /* EditarCarroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarCarroController.swift; sourceTree = "<group>"; };
+		3D821157235120B500A7F190 /* CeldaCarroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCarroController.swift; sourceTree = "<group>"; };
+		3D8211592351289200A7F190 /* Carro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
+		3D82115B23512E3600A7F190 /* AgregarCarroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarCarroController.swift; sourceTree = "<group>"; };
+		3D82115D235150CA00A7F190 /* AgregarCargaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarCargaController.swift; sourceTree = "<group>"; };
+		3D82115F235157BB00A7F190 /* CeldaCargasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCargasController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +115,12 @@
 				3D54BFF4234D240F003AF625 /* Assets.xcassets */,
 				3D54BFF6234D240F003AF625 /* LaunchScreen.storyboard */,
 				3D54BFF9234D240F003AF625 /* Info.plist */,
-				3D54C01B234D3770003AF625 /* AgregarAutoController.swift */,
-				3D54C01D234D37A1003AF625 /* AgregarAuto.swift */,
-				3D2C6AC3234E96E400A39383 /* Modelo.swift */,
-				3D2C6AC5234E97C800A39383 /* Cell_ViewController.swift */,
+				3D82115523511EDA00A7F190 /* EditarCarroController.swift */,
+				3D821157235120B500A7F190 /* CeldaCarroController.swift */,
+				3D8211592351289200A7F190 /* Carro.swift */,
+				3D82115B23512E3600A7F190 /* AgregarCarroController.swift */,
+				3D82115D235150CA00A7F190 /* AgregarCargaController.swift */,
+				3D82115F235157BB00A7F190 /* CeldaCargasController.swift */,
 			);
 			path = ProyectoParcial;
 			sourceTree = "<group>";
@@ -269,11 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D54BFF0234D240B003AF625 /* ViewController.swift in Sources */,
+				3D82115E235150CA00A7F190 /* AgregarCargaController.swift in Sources */,
+				3D821158235120B500A7F190 /* CeldaCarroController.swift in Sources */,
+				3D82115623511EDA00A7F190 /* EditarCarroController.swift in Sources */,
+				3D821160235157BB00A7F190 /* CeldaCargasController.swift in Sources */,
 				3D54BFEE234D240B003AF625 /* AppDelegate.swift in Sources */,
-				3D2C6AC6234E97C800A39383 /* Cell_ViewController.swift in Sources */,
-				3D54C01E234D37A1003AF625 /* AgregarAuto.swift in Sources */,
-				3D54C01C234D3770003AF625 /* AgregarAutoController.swift in Sources */,
-				3D2C6AC4234E96E400A39383 /* Modelo.swift in Sources */,
+				3D82115A2351289200A7F190 /* Carro.swift in Sources */,
+				3D82115C23512E3600A7F190 /* AgregarCarroController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
